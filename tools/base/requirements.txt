@@ -4,8 +4,9 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes requirements.in
 #
-abstracts==0.0.12 \
-    --hash=sha256:acc01ff56c8a05fb88150dff62e295f9071fc33388c42f1dfc2787a8d1c755ff
+abstracts==0.2.0 \
+    --hash=sha256:1dd6df509a67cae1722c0dd9f58cdd6dee6e42f45bf0d7197e159b2e4c5e98e9 \
+    --hash=sha256:995f326ab4408a6652a346439cb33169f48e66f25515c6baf9fc47f1a3e4652a
     # via
     #   -r requirements.in
     #   aio-api-bazel
@@ -38,9 +39,9 @@ aio-api-nist==0.0.4 \
     --hash=sha256:1f2909d60ed4fdb3a3ffc37ad6012666f34078b71648394be91f5e67bbf8b6ca \
     --hash=sha256:c948ee597b9e7cda7982e17bc4aca509b8aa68510899b42e2d382c10fb0d6f89
     # via envoy-dependency-check
-aio-core==0.10.5 \
-    --hash=sha256:ba512132df47514a15930b89835ba1ef13522b7e31ec83a3b0622b7431f3f42e \
-    --hash=sha256:d8486a0115ade8e0362783b8e7cd988368766d0d911c62cb73b716bfe1f50a92
+aio-core==0.11.1 \
+    --hash=sha256:03f1202029655c68d5d41c2fa1d18e344d61515b71080f770f8cf6f99fbc5f5a \
+    --hash=sha256:76608a1dad3985866c1b3ffc81e0d08bd1a740e8e72125bfbf46d1ee6fc3abfe
     # via
     #   -r requirements.in
     #   aio-api-bazel
@@ -1314,9 +1315,7 @@ python-gnupg==0.5.2 \
 pytz==2024.2 \
     --hash=sha256:2aa355083c50a0f93fa581709deac0c9ad65cca8a9e9beac660adcbd493c798a \
     --hash=sha256:31c7c1817eb7fae7ca4b8c7ee50c72f93aa2dd863de768e1ef4245d426aa0725
-    # via
-    #   aio-core
-    #   envoy-base-utils
+    # via envoy-base-utils
 pyyaml==6.0.3 \
     --hash=sha256:00c4bdeba853cc34e7dd471f16b4114f4162dc03e6b7afcc2128711f0eca823c \
     --hash=sha256:0150219816b6a1fa26fb4699fb7daa9caf09eb1999f3b70fb6e786805e80375a \
@@ -1509,10 +1508,6 @@ types-docutils==0.21.0.20241128 \
     --hash=sha256:4dd059805b83ac6ec5a223699195c4e9eeb0446a4f7f2aeff1759a4a7cc17473 \
     --hash=sha256:e0409204009639e9b0bf4521eeabe58b5e574ce9c0db08421c2ac26c32be0039
     # via types-pygments
-types-orjson==3.6.2 \
-    --hash=sha256:22ee9a79236b6b0bfb35a0684eded62ad930a88a56797fa3c449b026cf7dbfe4 \
-    --hash=sha256:cf9afcc79a86325c7aff251790338109ed6f6b1bab09d2d4262dd18c85a3c638
-    # via aio-core
 types-protobuf==5.28.0.20240924 \
     --hash=sha256:5cecf612ccdefb7dc95f7a51fb502902f20fc2e6681cd500184aaa1b3931d6a7 \
     --hash=sha256:d181af8a256e5a91ce8d5adb53496e880efd9144c7d54483e3653332b60296f0
@@ -1524,15 +1519,11 @@ types-pygments==2.18.0.20240506 \
 types-pytz==2024.2.0.20241003 \
     --hash=sha256:3e22df1336c0c6ad1d29163c8fda82736909eb977281cb823c57f8bae07118b7 \
     --hash=sha256:575dc38f385a922a212bac00a7d6d2e16e141132a3c955078f4a4fd13ed6cb44
-    # via
-    #   aio-core
-    #   envoy-base-utils
+    # via envoy-base-utils
 types-pyyaml==6.0.12.20240917 \
     --hash=sha256:392b267f1c0fe6022952462bf5d6523f31e37f6cea49b14cee7ad634b6301570 \
     --hash=sha256:d1405a86f9576682234ef83bcb4e6fff7c9305c8b1fbad5e0bcd4f7dbdc9c587
-    # via
-    #   aio-core
-    #   envoy-code-check
+    # via envoy-code-check
 types-setuptools==75.6.0.20241126 \
     --hash=sha256:7bf25ad4be39740e469f9268b6beddda6e088891fa5a27e985c6ce68bf62ace0 \
     --hash=sha256:aaae310a0e27033c1da8457d4d26ac673b0c8a0de7272d6d4708e263f2ea3b9b
