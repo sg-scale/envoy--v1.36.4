@@ -31,7 +31,7 @@ gitpython
 icalendar>=6.1.1
 jinja2
 kafka-python-ng
-multidict>=6.0.2
+multidict>=6.9.1
 orjson>=3.10.15
 pep8-naming
 ply
