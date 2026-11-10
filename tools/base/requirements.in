@@ -55,4 +55,4 @@ sphinx-rtd-theme>=3.0.2
 thrift
 verboselogs
 yapf
-yarl>=1.17.2
+yarl>=1.25.1
