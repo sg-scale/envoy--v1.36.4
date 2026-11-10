@@ -25,7 +25,7 @@ envoy.distribution.verify>=0.0.11
 envoy.docs.sphinx_runner>=0.2.9
 envoy.gpg.identity>=0.1.1
 envoy.gpg.sign>=0.2.0
-flake8>=6
+flake8>=7.5.0
 frozendict>=2.3.7
 gitpython
 icalendar>=6.1.1
