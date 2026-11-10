@@ -13,7 +13,7 @@ coloredlogs
 # NB: When updating this dep you _must_ strip out all the unused wheel hashes
 #  ie - only keep python3.9+ glibc2.28 for arm/x86 and macos
 cryptography>=44.0.1
-dependatool>=0.2.2
+dependatool>=0.3.1
 envoy.base.utils>=0.5.10
 envoy.ci.report>=0.0.3
 envoy.code.check>=0.5.12
