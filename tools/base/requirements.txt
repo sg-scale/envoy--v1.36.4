@@ -592,9 +592,9 @@ envoy-gpg-sign==0.2.0 \
     --hash=sha256:53ef217a05555d725d467ceb70fbf7bc623eeb973a41996e8bbe1f295d8c9aab \
     --hash=sha256:8bca326766a2b82864ec6274c51d99c9924f2ec773316c2f13034925ddf50772
     # via -r requirements.in
-flake8==7.3.0 \
-    --hash=sha256:b9696257b9ce8beb888cdbe31cf885c90d31928fe202be0889a7cdafad32f01e \
-    --hash=sha256:fe044858146b9fc69b551a4b490d69cf960fcb78ad1edcb84e7fbb1b4a8e3872
+flake8==7.5.0 \
+    --hash=sha256:0dab7566341aca0d80aa29b5812bdadf256caa6a63e6068e49ac2649918236a4 \
+    --hash=sha256:637ea1a443a78ed6ee461725cdf71ca93bc5cde0abf25436dbebdc3880b4e078
     # via
     #   -r requirements.in
     #   envoy-code-check
@@ -1232,17 +1232,17 @@ pyasn1-modules==0.4.1 \
     --hash=sha256:49bfa96b45a292b711e986f222502c1c9a5e1f4e568fc30e2574a6c7d07838fd \
     --hash=sha256:c28e2dbf9c06ad61c71a075c7e0f9fd0f1b0bb2d2ad4377f240d33ac2ab60a7c
     # via service-identity
-pycodestyle==2.14.0 \
-    --hash=sha256:c4b5b517d278089ff9d0abdec919cd97262a3367449ea1c8b49b91529167b783 \
-    --hash=sha256:dd6bf7cb4ee77f8e016f9c8e74a35ddd9f67e1d5fd4184d86c3b98e07099f42d
+pycodestyle==2.15.0 \
+    --hash=sha256:12fd2f73c7b8ee8845a0431111df8faf4c1a07d6e64e2ee7f0c74014dab14181 \
+    --hash=sha256:318f5db083869b4c4dad922d0b11124fb27ab181b6730b93371da671e31bd50e
     # via flake8
 pycparser==2.22 \
     --hash=sha256:491c8be9c040f5390f5bf44a5b07752bd07f56edf992381b05c701439eec10f6 \
     --hash=sha256:c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc
     # via cffi
-pyflakes==3.4.0 \
-    --hash=sha256:b24f96fafb7d2ab0ec5075b7350b3d2d2218eab42003821c06344973d3ea2f58 \
-    --hash=sha256:f742a7dbd0d9cb9ea41e9a24a918996e8170c799fa528688d40dd582c8265f4f
+pyflakes==4.1.0 \
+    --hash=sha256:592beb57058eb82eb190fb7514f2081c555c51000b029ff71286a681e6cf2f83 \
+    --hash=sha256:b2e05e6bac8e49b67be2a6ffa63422c60f7193fc72e8180255907b41ec997dc1
     # via flake8
 pygithub==2.8.1 \
     --hash=sha256:23a0a5bca93baef082e03411bf0ce27204c32be8bfa7abc92fe4a3e132936df0 \
